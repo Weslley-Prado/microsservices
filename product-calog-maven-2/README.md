@@ -6,7 +6,7 @@ I hope that this project can be useful for anyone who is interested in building 
 
 I faced a challenge while configuring Elastic with Spring Boot. To tackle this, I used the following versions:
 
-*1.spring-data-elasticsearch = 4.3.3 *   
+*1.spring-data-elasticsearch = 4.3.3*   
 *2.elasticsearch-rest-high-level-client = 7.15.2*    
 *2.elasticsearch = 7.14.0*    
 *3.Java = 17*  
