@@ -10,7 +10,8 @@ import org.springframework.data.elasticsearch.config.ElasticsearchConfigurationS
 import org.springframework.data.elasticsearch.core.ElasticsearchOperations;
 import org.springframework.data.elasticsearch.core.ElasticsearchRestTemplate;
 import org.springframework.data.elasticsearch.repository.config.EnableElasticsearchRepositories;
-
+import org.springframework.stereotype.Component;
+@Component
 @Configuration
 @EnableElasticsearchRepositories(basePackages = "com.digitalinovation.experts.repository")
 public class ElasticSearchConfig extends ElasticsearchConfigurationSupport {
